@@ -12,6 +12,8 @@ func _ready():
 
 func uppercase(thing):
 	return thing.to_upper()
+func sha256(thing):
+	return thing.sha256_text()
 
 func echo(thing):
 	return thing
